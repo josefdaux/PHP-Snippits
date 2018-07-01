@@ -1,0 +1,5 @@
+<?PHP
+
+$test_array = array('Tim', 'Jim', 'Kim', 'Him');
+echo $test_array[2];
+?>

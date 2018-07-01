@@ -1,0 +1,33 @@
+
+
+<?PHP
+
+/* Static Variable */
+function statver () {
+    static $counter = 0;
+    $counter++;
+    echo $counter;
+}
+
+echo statver ();
+function statver ();
+function statver ();
+
+?>
+
+
+
+
+
+<?PHP
+
+
+/* Global Variable */
+global $globalver = 10;
+
+function statver () {
+    static $counter = 0;
+    $counter += $globalver;
+    echo $counter;
+}
+?>

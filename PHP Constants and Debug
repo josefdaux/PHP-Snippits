@@ -1,0 +1,4 @@
+<?PHP
+define("MY_DEBUG_CONSTANT", "This is a test on".__LINE__."on file".__FILE__);
+echo MY_DEBUG_CONSTANT;
+?>

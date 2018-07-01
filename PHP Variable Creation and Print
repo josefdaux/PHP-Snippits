@@ -1,0 +1,11 @@
+<?PHP
+/* Initialize variable $username */
+$username = "Timmy";
+/* Print $username */
+echo $username;
+echo "<br>";
+/* Initialize new variable with the value of $username */
+$you_are = $username;
+/* Print new variable */
+echo $you_are;
+?>

@@ -1,0 +1,29 @@
+
+/* Define function to be placed in external file. */
+
+<?PHP
+function $correct_name($name_one, $name_two, $name_three){
+    $final_one = ucfirst(strtolower(name_one));
+    $final_two = ucfirst(strtolower(name_two));
+    $final_three = ucfirst(strtolower(name_three));
+
+    return $final_one . $final_two . $final_three;
+};
+
+?>
+
+
+
+
+<?PHP
+/* Links to external PHP file where custom functions are defined. */
+include_once "custom_function_definitions.php";
+
+$first_name = timmy;
+$middle_name = JIMMy;
+$last_name = rEX;
+
+echo $first_name . $middle_name . $last_name;
+
+echo $correct_name($first_name, $middle_name, $last_name);
+?>

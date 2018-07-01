@@ -1,0 +1,8 @@
+<?PHP
+/* This declares a variable. */
+$string_vari1 = "This is the";
+/* This concates the following string to the preexisting variable. */
+$string_vari1 .= " second half.";
+/* Echo the result by test. */
+echo $string_vari1;
+?>

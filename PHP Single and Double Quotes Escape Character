@@ -1,0 +1,11 @@
+<?PHP
+$vari1 = "I was talking to $test_array[2] the other day. She\'s good.";
+$test_array = array('Tim', 'Jim', 'Kim', 'Him');
+echo $vari1;
+?>
+
+<?PHP
+$vari1 = 'I was talking to $test_array[2] the other day. She\'s good.';
+$test_array = array('Tim', 'Jim', 'Kim', 'Him');
+echo $vari1;
+?>
